@@ -4,7 +4,7 @@
  *
  * Ionic, v1.0.0-beta.11-nightly-411
  * A powerful HTML5 mobile app framework.
- * http://ionicframework.com/
+ * http:/ionicframework.com/
  *
  * By @maxlynch, @benjsperry, @adamdbradley <3
  *
@@ -78,7 +78,7 @@ var IonicModule = angular.module('ionic', ['ngAnimate', 'ngSanitize', 'ui.router
  * There are easy ways to cancel out of the action sheet, such as tapping the backdrop or even
  * hitting escape on the keyboard for desktop testing.
  *
- * ![Action Sheet](http://ionicframework.com.s3.amazonaws.com/docs/controllers/actionSheet.gif)
+ * ![Action Sheet](http:/ionicframework.com.s3.amazonaws.com/docs/controllers/actionSheet.gif)
  *
  * @usage
  * To trigger an Action Sheet in your code, use the $ionicActionSheet service in your angular controllers:
@@ -7553,7 +7553,7 @@ IonicModule.constant('$ionicNavViewConfig', {
  * more info. Below is a great video by the AngularUI Router guys that may help to explain
  * how it all works:
  *
- * <iframe width="560" height="315" src="//www.youtube.com/embed/dqJRoh8MnBo"
+ * <iframe width="560" height="315" src="/www.youtube.com/embed/dqJRoh8MnBo"
  * frameborder="0" allowfullscreen></iframe>
  *
  * @param {string=} name A view name. The name should be unique amongst the other views in the
@@ -8332,7 +8332,7 @@ IonicModule
  * {@link ionic.directive:ionSideMenu} element directive, a side menu can be given instructions
  * on "when" the menu should be exposed (always viewable).
  *
- * ![Side Menu](http://ionicframework.com.s3.amazonaws.com/docs/controllers/sidemenu.gif)
+ * ![Side Menu](http:/ionicframework.com.s3.amazonaws.com/docs/controllers/sidemenu.gif)
  *
  * For more information on side menus, check out:
  *
@@ -8408,7 +8408,7 @@ IonicModule
  * @description
  * The Slide Box is a multi-page container where each page can be swiped or dragged between:
  *
- * ![SlideBox](http://ionicframework.com.s3.amazonaws.com/docs/controllers/slideBox.gif)
+ * ![SlideBox](http:/ionicframework.com.s3.amazonaws.com/docs/controllers/slideBox.gif)
  *
  * @usage
  * ```html

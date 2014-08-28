@@ -4,7 +4,7 @@
  *
  * Ionic, v1.0.0-beta.11
  * A powerful HTML5 mobile app framework.
- * http://ionicframework.com/
+ * http:/ionicframework.com/
  *
  * By @maxlynch, @benjsperry, @adamdbradley <3
  *
@@ -3199,8 +3199,8 @@ ionic.DomUtil.ready(function(){
  * On both Android and iOS, Ionic will attempt to prevent the keyboard from
  * obscuring inputs and focusable elements when it appears by scrolling them
  * into view.  In order for this to work, any focusable elements must be within
- * a [Scroll View](http://ionicframework.com/docs/api/directive/ionScroll/)
- * or a directive such as [Content](http://ionicframework.com/docs/api/directive/ionContent/)
+ * a [Scroll View](http:/ionicframework.com/docs/api/directive/ionScroll/)
+ * or a directive such as [Content](http:/ionicframework.com/docs/api/directive/ionContent/)
  * that has a Scroll View.
  *
  * It will also attempt to prevent the native overflow scrolling on focus,
@@ -6443,7 +6443,7 @@ ionic.scroll = {
         this.itemHeight = this.listEl.children[0] && parseInt(this.listEl.children[0].style.height, 10);
       }
 
-      //ionic.views.ListView.__super__.initialize.call(this, opts);
+      /ionic.views.ListView.__super__.initialize.call(this, opts);
 
       this.onRefresh = opts.onRefresh || function() {};
       this.onRefreshOpening = opts.onRefreshOpening || function() {};
@@ -6537,7 +6537,7 @@ ionic.scroll = {
     },
 
     _initDrag: function() {
-      //ionic.views.ListView.__super__._initDrag.call(this);
+      /ionic.views.ListView.__super__._initDrag.call(this);
 
       // Store the last one
       this._lastDragOp = this._dragOp;
@@ -6611,7 +6611,7 @@ ionic.scroll = {
       this._didDragUpOrDown = false;
 
       if(!this._dragOp) {
-        //ionic.views.ListView.__super__._handleEndDrag.call(this, e);
+        /ionic.views.ListView.__super__._handleEndDrag.call(this, e);
         return;
       }
 
@@ -6638,7 +6638,7 @@ ionic.scroll = {
 
       // No drag still, pass it up
       if(!this._dragOp) {
-        //ionic.views.ListView.__super__._handleDrag.call(this, e);
+        /ionic.views.ListView.__super__._handleDrag.call(this, e);
         return;
       }
 

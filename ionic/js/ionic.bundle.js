@@ -11,7 +11,7 @@
  *
  * Ionic, v1.0.0-beta.11
  * A powerful HTML5 mobile app framework.
- * http://ionicframework.com/
+ * http:/ionicframework.com/
  *
  * By @maxlynch, @benjsperry, @adamdbradley <3
  *
@@ -3206,8 +3206,8 @@ ionic.DomUtil.ready(function(){
  * On both Android and iOS, Ionic will attempt to prevent the keyboard from
  * obscuring inputs and focusable elements when it appears by scrolling them
  * into view.  In order for this to work, any focusable elements must be within
- * a [Scroll View](http://ionicframework.com/docs/api/directive/ionScroll/)
- * or a directive such as [Content](http://ionicframework.com/docs/api/directive/ionContent/)
+ * a [Scroll View](http:/ionicframework.com/docs/api/directive/ionScroll/)
+ * or a directive such as [Content](http:/ionicframework.com/docs/api/directive/ionContent/)
  * that has a Scroll View.
  *
  * It will also attempt to prevent the native overflow scrolling on focus,
@@ -6450,7 +6450,7 @@ ionic.scroll = {
         this.itemHeight = this.listEl.children[0] && parseInt(this.listEl.children[0].style.height, 10);
       }
 
-      //ionic.views.ListView.__super__.initialize.call(this, opts);
+      /ionic.views.ListView.__super__.initialize.call(this, opts);
 
       this.onRefresh = opts.onRefresh || function() {};
       this.onRefreshOpening = opts.onRefreshOpening || function() {};
@@ -6544,7 +6544,7 @@ ionic.scroll = {
     },
 
     _initDrag: function() {
-      //ionic.views.ListView.__super__._initDrag.call(this);
+      /ionic.views.ListView.__super__._initDrag.call(this);
 
       // Store the last one
       this._lastDragOp = this._dragOp;
@@ -6618,7 +6618,7 @@ ionic.scroll = {
       this._didDragUpOrDown = false;
 
       if(!this._dragOp) {
-        //ionic.views.ListView.__super__._handleEndDrag.call(this, e);
+        /ionic.views.ListView.__super__._handleEndDrag.call(this, e);
         return;
       }
 
@@ -6645,7 +6645,7 @@ ionic.scroll = {
 
       // No drag still, pass it up
       if(!this._dragOp) {
-        //ionic.views.ListView.__super__._handleDrag.call(this, e);
+        /ionic.views.ListView.__super__._handleDrag.call(this, e);
         return;
       }
 
@@ -35058,7 +35058,7 @@ angular.module('ui.router.compat')
  *
  * Ionic, v1.0.0-beta.11
  * A powerful HTML5 mobile app framework.
- * http://ionicframework.com/
+ * http:/ionicframework.com/
  *
  * By @maxlynch, @benjsperry, @adamdbradley <3
  *
@@ -35132,7 +35132,7 @@ var IonicModule = angular.module('ionic', ['ngAnimate', 'ngSanitize', 'ui.router
  * There are easy ways to cancel out of the action sheet, such as tapping the backdrop or even
  * hitting escape on the keyboard for desktop testing.
  *
- * ![Action Sheet](http://ionicframework.com.s3.amazonaws.com/docs/controllers/actionSheet.gif)
+ * ![Action Sheet](http:/ionicframework.com.s3.amazonaws.com/docs/controllers/actionSheet.gif)
  *
  * @usage
  * To trigger an Action Sheet in your code, use the $ionicActionSheet service in your angular controllers:
@@ -41924,7 +41924,7 @@ IonicModule.constant('$ionicNavViewConfig', {
  * more info. Below is a great video by the AngularUI Router guys that may help to explain
  * how it all works:
  *
- * <iframe width="560" height="315" src="//www.youtube.com/embed/dqJRoh8MnBo"
+ * <iframe width="560" height="315" src="/www.youtube.com/embed/dqJRoh8MnBo"
  * frameborder="0" allowfullscreen></iframe>
  *
  * @param {string=} name A view name. The name should be unique amongst the other views in the
@@ -42636,7 +42636,7 @@ IonicModule
  * links and buttons within `ion-side-menu` content, so that when the element is
  * clicked then the opened side menu will automatically close.
  *
- * ![Side Menu](http://ionicframework.com.s3.amazonaws.com/docs/controllers/sidemenu.gif)
+ * ![Side Menu](http:/ionicframework.com.s3.amazonaws.com/docs/controllers/sidemenu.gif)
  *
  * For more information on side menus, check out:
  *
@@ -42703,7 +42703,7 @@ IonicModule
  * @description
  * The Slide Box is a multi-page container where each page can be swiped or dragged between:
  *
- * ![SlideBox](http://ionicframework.com.s3.amazonaws.com/docs/controllers/slideBox.gif)
+ * ![SlideBox](http:/ionicframework.com.s3.amazonaws.com/docs/controllers/slideBox.gif)
  *
  * @usage
  * ```html
